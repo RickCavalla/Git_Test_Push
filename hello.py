@@ -1,4 +1,5 @@
 from helpers import greet
 
 #print("Hello, World")
-greet("World")
+name = input("Who do you want to greet? ")
+greet(name)
